@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- ── HOME ── -->
+  <url>
+    <loc>https://coral-oss.dev/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coral-oss.dev/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coral-oss.dev/fr/"/>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://coral-oss.dev/fr/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coral-oss.dev/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coral-oss.dev/fr/"/>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- ── LICENSE ── -->
+  <url>
+    <loc>https://coral-oss.dev/license/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coral-oss.dev/license/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coral-oss.dev/fr/licence/"/>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://coral-oss.dev/fr/licence/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coral-oss.dev/license/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coral-oss.dev/fr/licence/"/>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ── CODE OF CONDUCT ── -->
+  <url>
+    <loc>https://coral-oss.dev/code-of-conduct/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coral-oss.dev/code-of-conduct/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coral-oss.dev/fr/code-de-conduite/"/>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://coral-oss.dev/fr/code-de-conduite/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coral-oss.dev/code-of-conduct/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coral-oss.dev/fr/code-de-conduite/"/>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- ── REQUEST A FRAMEWORK ── -->
+  <url>
+    <loc>https://coral-oss.dev/request-framework/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coral-oss.dev/request-framework/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coral-oss.dev/fr/request-framework/"/>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://coral-oss.dev/fr/request-framework/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://coral-oss.dev/request-framework/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://coral-oss.dev/fr/request-framework/"/>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>

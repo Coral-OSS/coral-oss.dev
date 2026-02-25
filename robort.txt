@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://coral-oss.dev/sitemap.xml
+
+# Block access to any future admin or build artifacts
+Disallow: /_/
+Disallow: /.github/
+Disallow: /.git/
