@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>License — CORAL Community License v1.0</title>
+  <meta name="description" content="The CORAL Community License (CCL) v1.0. Free for individuals and small teams. Commercial users contribute back through code or sponsorship.">
+  <link rel="canonical" href="https://coral-oss.dev/license/">
+  <link rel="alternate" hreflang="en" href="https://coral-oss.dev/license/">
+  <link rel="alternate" hreflang="fr" href="https://coral-oss.dev/fr/licence/">
+  <link rel="alternate" hreflang="x-default" href="https://coral-oss.dev/license/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://coral-oss.dev/license/">
+  <meta property="og:title" content="License — CORAL Community License v1.0">
+  <meta property="og:description" content="Free for individuals and small teams. Commercial users contribute back through code or sponsorship. Source-available, tiered obligations.">
+  <meta property="og:image" content="https://coral-oss.dev/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@coral_oss">
+  <meta name="twitter:title" content="License — CORAL Community License v1.0">
+  <meta name="twitter:description" content="Free for individuals and small teams. Commercial users contribute back through code or sponsorship.">
+  <meta name="twitter:image" content="https://coral-oss.dev/og.png">
+
+  <script type="application/ld+json">
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "License — CORAL Community License v1.0",
+      "url": "https://coral-oss.dev/license/",
+      "inLanguage": "en",
+      "description": "The CORAL Community License (CCL) v1.0. Free for individuals and small teams. Commercial users contribute back through code or sponsorship.",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "CORAL",
+        "url": "https://coral-oss.dev"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://coral-oss.dev/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "License",
+          "item": "https://coral-oss.dev/license/"
+        }
+      ]
+    }
+  ]
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Sora:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --ink:#0f172a; --ink-2:#334155; --ink-3:#475569; --paper:#f8fafc; --surface:#ffffff;
+      --blue:#1d4ed8; --blue-dark:#1e40af; --blue-light:#dbeafe;
+      --rule:#e2e8f0; --rule-2:#cbd5e1;
+      --green-text:#166534; --green-bg:#dcfce7;
+      --amber-text:#92400e; --amber-bg:#fef3c7;
+      --mono:'IBM Plex Mono',monospace; --sans:'Sora',sans-serif;
+    }
+    html { scroll-behavior: smooth; }
+    body { background:var(--paper); color:var(--ink); font-family:var(--sans); font-size:16px; line-height:1.6; }
+    .skip-link { position:absolute; top:-100%; left:1rem; background:var(--blue); color:#fff; padding:0.5rem 1rem; font-size:0.875rem; text-decoration:none; z-index:9999; border-radius:0 0 4px 4px; }
+    .skip-link:focus { top:0; }
+    header { border-bottom:1px solid var(--rule); padding:0.875rem 2rem; display:flex; align-items:center; justify-content:space-between; position:sticky; top:0; background:rgba(248,250,252,0.96); backdrop-filter:blur(10px); z-index:100; }
+    .wordmark { font-family:var(--sans); font-size:1.125rem; font-weight:600; color:var(--blue); text-decoration:none; letter-spacing:-0.02em; display:flex; align-items:center; gap:0.4rem; }
+    .wordmark-sub { color:var(--ink-3); font-weight:300; }
+    nav { display:flex; align-items:center; gap:0.125rem; }
+    nav a { font-size:0.875rem; color:var(--ink-2); text-decoration:none; padding:0.375rem 0.75rem; border-radius:6px; transition:color 0.15s,background 0.15s; }
+    nav a:hover { color:var(--ink); background:var(--rule); }
+    nav a:focus-visible { outline:2px solid var(--blue); outline-offset:2px; }
+    nav a.cta { background:var(--blue); color:#fff; font-weight:600; margin-left:0.5rem; display:flex; align-items:center; gap:0.35rem; }
+    nav a.cta:hover { background:var(--blue-dark); }
+
+    /* TWO-COLUMN LAYOUT */
+    .page-outer { max-width:1100px; margin:0 auto; padding:4rem 2rem 6rem; display:grid; grid-template-columns:220px 1fr; gap:4rem; align-items:start; }
+
+    /* SIDEBAR TOC */
+    .toc { position:sticky; top:5rem; }
+    .toc-label { font-family:var(--mono); font-size:0.7rem; text-transform:uppercase; letter-spacing:0.14em; color:var(--ink-3); margin-bottom:0.75rem; font-weight:500; }
+    .toc a { display:block; font-size:0.8125rem; color:var(--ink-3); text-decoration:none; padding:0.3rem 0.6rem; border-left:2px solid var(--rule); margin-bottom:0.125rem; transition:color 0.15s,border-color 0.15s; }
+    .toc a:hover { color:var(--ink); border-color:var(--blue); }
+    .toc a:focus-visible { outline:2px solid var(--blue); outline-offset:2px; }
+
+    /* CONTENT */
+    .breadcrumb { display:flex; align-items:center; gap:0.5rem; font-size:0.8125rem; color:var(--ink-3); margin-bottom:2rem; }
+    .breadcrumb a { color:var(--blue-dark); text-decoration:none; font-weight:500; }
+    .breadcrumb a:hover { text-decoration:underline; }
+    .page-tag { display:inline-flex; align-items:center; gap:0.45rem; font-family:var(--mono); font-size:0.75rem; color:var(--blue); background:var(--blue-light); padding:0.3rem 0.8rem; border-radius:100px; margin-bottom:1rem; font-weight:500; }
+    h1 { font-size:clamp(1.75rem,3vw,2.25rem); font-weight:600; color:var(--ink); letter-spacing:-0.03em; line-height:1.2; margin-bottom:0.5rem; }
+    .license-meta { font-family:var(--mono); font-size:0.8rem; color:var(--ink-3); margin-bottom:2.5rem; }
+
+    /* TIER TABLE */
+    .tier-summary { background:var(--surface); border:1px solid var(--rule); border-radius:12px; overflow:hidden; margin-bottom:3rem; }
+    table { width:100%; border-collapse:collapse; font-size:0.875rem; }
+    th { font-family:var(--mono); font-size:0.72rem; text-transform:uppercase; letter-spacing:0.1em; color:var(--ink-3); padding:0.75rem 1rem; text-align:left; border-bottom:1px solid var(--rule); background:var(--paper); font-weight:500; }
+    td { padding:0.75rem 1rem; border-bottom:1px solid var(--rule); color:var(--ink-2); vertical-align:top; line-height:1.55; }
+    td:first-child { font-weight:600; color:var(--ink); }
+    tr:last-child td { border-bottom:none; }
+
+    /* PROSE SECTIONS */
+    .license-section { margin-bottom:2.5rem; scroll-margin-top:5rem; }
+    .license-section h2 { font-size:1.125rem; font-weight:600; color:var(--ink); letter-spacing:-0.01em; margin-bottom:0.75rem; padding-bottom:0.5rem; border-bottom:1px solid var(--rule); display:flex; align-items:center; gap:0.5rem; }
+    .license-section h2 i { color:var(--blue); font-size:1rem; }
+    .license-section h3 { font-size:0.9375rem; font-weight:600; color:var(--ink); margin:1.25rem 0 0.5rem; }
+    .license-section p { font-size:0.9375rem; color:var(--ink-2); line-height:1.75; margin-bottom:0.875rem; }
+    .license-section p:last-child { margin-bottom:0; }
+    .license-section ol, .license-section ul { padding-left:1.5rem; margin-bottom:0.875rem; }
+    .license-section li { font-size:0.9375rem; color:var(--ink-2); line-height:1.75; margin-bottom:0.375rem; }
+    .license-section strong { color:var(--ink); font-weight:600; }
+    .definition { background:var(--surface); border:1px solid var(--rule); border-radius:8px; padding:1rem 1.25rem; margin-bottom:0.875rem; }
+    .definition dt { font-family:var(--mono); font-size:0.8rem; font-weight:500; color:var(--blue-dark); margin-bottom:0.3rem; }
+    .definition dd { font-size:0.875rem; color:var(--ink-2); line-height:1.7; }
+
+    .disclaimer { background:var(--paper); border:1px solid var(--rule-2); border-radius:10px; padding:1.25rem 1.5rem; font-size:0.8125rem; color:var(--ink-3); line-height:1.7; font-family:var(--mono); text-transform:uppercase; letter-spacing:0.02em; }
+
+    .contact-block { background:var(--blue-light); border:1px solid #93c5fd; border-radius:10px; padding:1.25rem 1.5rem; margin-top:1.5rem; }
+    .contact-block p { font-size:0.9rem; color:var(--blue-dark); margin-bottom:0.3rem; }
+    .contact-block a { color:var(--blue-dark); font-weight:600; }
+
+    hr.divider { border:none; border-top:1px solid var(--rule); margin:2rem 0; }
+    hr.footer-rule { border:none; border-top:1px solid var(--rule); margin:0; }
+    .footer-inner { max-width:1200px; margin:0 auto; padding:1.75rem 2rem; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:1rem; }
+    .footer-copy { font-size:0.8125rem; color:var(--ink-3); }
+    .footer-links { display:flex; gap:1.5rem; flex-wrap:wrap; }
+    .footer-links a { font-size:0.8125rem; color:var(--ink-3); text-decoration:none; }
+    .footer-links a:hover { color:var(--ink); }
+
+    @media(max-width:768px) {
+      .page-outer { grid-template-columns:1fr; gap:2rem; }
+      .toc { display:none; }
+      nav a:not(.cta) { display:none; }
+    }
+  </style>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+  <header role="banner">
+    <a href="/" class="wordmark"><i class="ri-shield-check-line" aria-hidden="true"></i> CORAL <span class="wordmark-sub">oss</span></a>
+    <nav role="navigation" aria-label="Main navigation">
+      <a href="/#frameworks">Frameworks</a>
+      <a href="/request-framework/">Request</a>
+      <a href="/code-of-conduct/">Code of Conduct</a>
+      <a href="https://github.com/coral-oss/coral" class="cta" target="_blank" rel="noopener"><i class="ri-github-fill" aria-hidden="true"></i> GitHub</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <div class="page-outer">
+
+      <!-- SIDEBAR TOC -->
+      <aside class="toc" aria-label="Table of contents">
+        <p class="toc-label">On this page</p>
+        <a href="#preamble">Preamble</a>
+        <a href="#definitions">Definitions</a>
+        <a href="#tier1">Tier 1 — Community</a>
+        <a href="#tier2">Tier 2 — Commercial</a>
+        <a href="#tier3">Tier 3 — Enterprise</a>
+        <a href="#conditions">Conditions</a>
+        <a href="#cla">Contributor Agreement</a>
+        <a href="#enforcement">Enforcement</a>
+        <a href="#disclaimer">Disclaimer</a>
+        <a href="#contact">Contact</a>
+      </aside>
+
+      <!-- CONTENT -->
+      <div>
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="/"><i class="ri-home-4-line" aria-hidden="true"></i> Home</a>
+          <i class="ri-arrow-right-s-line" aria-hidden="true"></i>
+          <span aria-current="page">License</span>
+        </nav>
+
+        <span class="page-tag"><i class="ri-contract-line" aria-hidden="true"></i> Legal</span>
+        <h1>CORAL Community License</h1>
+        <p class="license-meta">Version 1.0 &nbsp;·&nbsp; Copyright © 2026 Andrew Menard-Pike &nbsp;·&nbsp; <a href="/fr/licence/" lang="fr" hreflang="fr" style="color:var(--blue-dark);">Version française</a></p>
+
+        <!-- TIER SUMMARY -->
+        <div class="tier-summary">
+          <table>
+            <thead>
+              <tr><th>Who you are</th><th>Requirement</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Individual / non-profit / academic / government / company &lt; $1M ARR</td><td>Free — attribution only</td></tr>
+              <tr><td>Company with $1M–$50M ARR (commercial use)</td><td>One merged contribution per year <em>or</em> $500/year sponsorship</td></tr>
+              <tr><td>Company with &gt; $50M ARR (commercial use)</td><td>$5,000/year sponsorship <em>or</em> three merged contributions per year</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="license-section" id="preamble">
+          <h2><i class="ri-information-line" aria-hidden="true"></i> Preamble</h2>
+          <p>The CORAL Community License is designed to ensure that the CORAL project remains free and accessible to individuals, researchers, and small organizations, while requiring commercial entities that derive economic benefit from its use to contribute proportionally to its continued development and maintenance.</p>
+          <p>This license is not an OSI-approved open source license. It is a source-available license that prioritizes long-term project sustainability.</p>
+        </div>
+
+        <div class="license-section" id="definitions">
+          <h2><i class="ri-book-2-line" aria-hidden="true"></i> Definitions</h2>
+          <dl>
+            <div class="definition"><dt>"Software"</dt><dd>The CORAL source code, documentation, and associated files distributed under this license.</dd></div>
+            <div class="definition"><dt>"You"</dt><dd>The individual or legal entity exercising rights under this license.</dd></div>
+            <div class="definition"><dt>"Commercial Use"</dt><dd>Any use of the Software in connection with a revenue-generating activity, including deploying the Software internally to support business operations, incorporating the Software into a commercial product or service, or using the Software to perform services for third parties in exchange for compensation.</dd></div>
+            <div class="definition"><dt>"Annual Recurring Revenue (ARR)"</dt><dd>The annualized value of all subscription, license, and service revenue of You and any affiliates, parent companies, or subsidiaries under common control.</dd></div>
+            <div class="definition"><dt>"Meaningful Contribution"</dt><dd>A pull request reviewed and merged into the official CORAL repository by a maintainer. Contributions must represent a substantive improvement — a new feature, bug fix, security patch, significant documentation improvement, or test suite addition. Minor formatting changes, typo fixes, or trivial modifications do not qualify.</dd></div>
+            <div class="definition"><dt>"Sponsorship"</dt><dd>A recurring financial contribution made through the official CORAL sponsorship channels as listed in the project's README.</dd></div>
+            <div class="definition"><dt>"Grace Period"</dt><dd>90 days following the date on which You first meet a commercial tier threshold.</dd></div>
+          </dl>
+        </div>
+
+        <div class="license-section" id="tier1">
+          <h2><i class="ri-heart-line" aria-hidden="true"></i> Tier 1 — Community (Free)</h2>
+          <p><strong>Applies to:</strong> Individuals using the Software for personal, educational, or non-commercial purposes; non-profit organizations; academic and government institutions; companies or organizations with less than USD $1,000,000 in ARR.</p>
+          <p><strong>Rights granted:</strong> You may use, copy, modify, and distribute the Software and derivative works, for any purpose, subject to the conditions in the Conditions section.</p>
+          <p><strong>Obligations:</strong> Attribution only.</p>
+        </div>
+
+        <div class="license-section" id="tier2">
+          <h2><i class="ri-git-pull-request-line" aria-hidden="true"></i> Tier 2 — Commercial (Contribute)</h2>
+          <p><strong>Applies to:</strong> Companies or organizations with ARR between USD $1,000,000 and USD $50,000,000 engaging in Commercial Use.</p>
+          <p><strong>Rights granted:</strong> You may use, copy, modify, and deploy the Software in connection with your commercial operations, subject to the conditions below.</p>
+          <p><strong>Annual obligation — satisfy at least one:</strong></p>
+          <ol>
+            <li>Make at least <strong>one Meaningful Contribution</strong> to the official CORAL repository; or</li>
+            <li>Maintain an active <strong>Sponsorship of at least USD $500 per year</strong> through official project sponsorship channels.</li>
+          </ol>
+        </div>
+
+        <div class="license-section" id="tier3">
+          <h2><i class="ri-hand-coin-line" aria-hidden="true"></i> Tier 3 — Enterprise (Sponsor)</h2>
+          <p><strong>Applies to:</strong> Companies or organizations with ARR exceeding USD $50,000,000 engaging in Commercial Use.</p>
+          <p><strong>Rights granted:</strong> You may use, copy, modify, and deploy the Software in connection with your commercial operations, subject to the conditions below.</p>
+          <p><strong>Annual obligation — satisfy at least one:</strong></p>
+          <ol>
+            <li>Maintain an active <strong>Sponsorship of at least USD $5,000 per year</strong> through official project sponsorship channels; or</li>
+            <li>Make at least <strong>three Meaningful Contributions</strong> per calendar year. Financial sponsorship may be substituted for contributions at maintainer discretion.</li>
+          </ol>
+        </div>
+
+        <div class="license-section" id="conditions">
+          <h2><i class="ri-list-check-3" aria-hidden="true"></i> Conditions (All Tiers)</h2>
+          <ol>
+            <li><strong>Attribution.</strong> All copies or substantial portions of the Software must retain this license notice, the copyright notice, and a clear attribution to the CORAL project.</li>
+            <li><strong>No Misrepresentation.</strong> You may not represent the Software or a derivative work as the official CORAL project, or imply endorsement by the project maintainers.</li>
+            <li><strong>License Preservation.</strong> You may not sublicense, re-license, or distribute the Software under different terms without explicit written permission from the copyright holder.</li>
+            <li><strong>Source Availability.</strong> If You distribute a modified version of the Software, You must make the source code of your modifications available under this same license.</li>
+            <li><strong>No Harmful Use.</strong> You may not use the Software in any manner intended to harm, deceive, or exploit individuals, or in violation of applicable law.</li>
+          </ol>
+        </div>
+
+        <div class="license-section" id="cla">
+          <h2><i class="ri-pen-nib-line" aria-hidden="true"></i> Contributor License Agreement</h2>
+          <p>By submitting a Meaningful Contribution to the CORAL project, You grant the copyright holder a perpetual, worldwide, non-exclusive, royalty-free, irrevocable license to use, reproduce, modify, sublicense, and distribute your contribution as part of the Software.</p>
+          <p>You represent that You have the right to grant this license and that your contribution is your original work. The copyright holder reserves the right to relicense the Software, including all accepted contributions, under different terms in the future.</p>
+        </div>
+
+        <div class="license-section" id="enforcement">
+          <h2><i class="ri-shield-check-line" aria-hidden="true"></i> Enforcement and Good Faith</h2>
+          <p>The project maintainers are committed to enforcing this license in good faith. If You are uncertain whether your use falls within a particular tier, or if your circumstances are unusual, you are encouraged to contact the maintainers before Commercial Use begins.</p>
+          <p>Companies that discover they are out of compliance will be given a reasonable opportunity to cure within <strong>30 days</strong> of written notice before any enforcement action is taken.</p>
+        </div>
+
+        <div class="license-section" id="disclaimer">
+          <h2><i class="ri-error-warning-line" aria-hidden="true"></i> Disclaimer of Warranties</h2>
+          <div class="disclaimer">THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</div>
+        </div>
+
+        <div class="license-section" id="contact">
+          <h2><i class="ri-mail-line" aria-hidden="true"></i> Contact</h2>
+          <div class="contact-block">
+            <p>Licensing inquiries, sponsorship, or questions about your obligations:</p>
+            <p><a href="mailto:legal@coral-oss.dev">legal@coral-oss.dev</a></p>
+            <p style="margin-top:0.75rem;">Sponsorship:</p>
+            <p><a href="https://github.com/sponsors/coral-oss" target="_blank" rel="noopener">github.com/sponsors/coral-oss</a></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <hr class="footer-rule">
+  <footer role="contentinfo">
+    <div class="footer-inner">
+      <p class="footer-copy">© 2026 Andrew Menard-Pike · CORAL Community License v1.0</p>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="https://github.com/coral-oss/coral" target="_blank" rel="noopener">GitHub</a>
+        <a href="/code-of-conduct/">Code of Conduct</a>
+        <a href="/request-framework/">Request a Framework</a>
+        <a href="mailto:legal@coral-oss.dev">legal@coral-oss.dev</a>
+        <a href="/fr/licence/" lang="fr" hreflang="fr">Français</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
